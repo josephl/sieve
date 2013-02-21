@@ -11,7 +11,7 @@ window.clog = function(msg) { return console.log(msg); };
         primefg: 'white',
         primebg: 'red'
     };
-    app.delay = 100;   // sieving time (ms)
+    app.delay = 50;   // sieving time (ms)
     app.locked = false;     // mutex
 
     /*
